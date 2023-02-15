@@ -1,0 +1,46 @@
+body{
+    width: auto;
+}
+
+h1{
+  margin: auto;  
+}
+.main-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.another-characters{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.enemy{
+    display: flex;
+    flex-direction: column;
+}
+
+.enemy img{
+    margin: 10px;
+}
+
+.shop, .roshan{
+    align-self: center;
+}
+
+
+.shop div, .roshan div{
+
+display: flex;
+justify-content: center;
+}
+
+.leave-game{
+    margin: 10px;
+}
+
+.leave-game button{
+    background-color: aquamarine;
+    text-align: center;
+}
